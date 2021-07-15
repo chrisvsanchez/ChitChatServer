@@ -15,6 +15,5 @@ class MessagesController < ApplicationController
     def message_params
         params.require(:message).permit(:text, :conversation_id)
     end
-end
 
 end
